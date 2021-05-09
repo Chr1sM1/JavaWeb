@@ -5,6 +5,12 @@
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
 
+  <!--配置一些web应用的初始化参数-->
+  <context-param>
+    <param-name>url</param-name>
+    <param-value>jdbc:mysql://localhost:3306/mybatis</param-value>
+  </context-param>
+
   <servlet>
     <servlet-name>hello</servlet-name>
     <servlet-class>com.sizhe.servlet.HelloServlet</servlet-class>
@@ -21,6 +27,15 @@
   <servlet-mapping>
     <servlet-name>getc</servlet-name>
     <url-pattern>/getc</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>gp</servlet-name>
+    <servlet-class>com.sizhe.servlet.ServletDemo03</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>gp</servlet-name>
+    <url-pattern>/gp</url-pattern>
   </servlet-mapping>
 
 </web-app>
