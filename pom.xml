@@ -10,7 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>servlet01</module>
-        <module>servlet01</module>
+        <module>servlet-02</module>
     </modules>
     <dependencies>
         <dependency>
