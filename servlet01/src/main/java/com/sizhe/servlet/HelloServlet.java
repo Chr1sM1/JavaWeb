@@ -9,7 +9,7 @@ import java.io.PrintWriter;
 
 /**
  * @ClassName HelloServlet
- * @Description TODO
+ * @Description HelloServlet
  * @Author Chris
  * @Date 2021/5/8
  **/
@@ -20,7 +20,7 @@ public class HelloServlet extends HttpServlet {
             throws ServletException, IOException {
         //OutputStream outputStream = resp.getOutputStream();
         PrintWriter writer = resp.getWriter();//响应流
-        writer.println("Hello,servlet");
+        writer.println("hello,servlet");
     }
 
     @Override
