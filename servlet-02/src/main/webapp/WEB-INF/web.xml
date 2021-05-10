@@ -38,4 +38,13 @@
     <url-pattern>/gp</url-pattern>
   </servlet-mapping>
 
+  <servlet>
+    <servlet-name>sd4</servlet-name>
+    <servlet-class>com.sizhe.servlet.ServletDemo04</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>sd4</servlet-name>
+    <url-pattern>/sd4</url-pattern>
+  </servlet-mapping>
+
 </web-app>
