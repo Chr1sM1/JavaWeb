@@ -8,7 +8,7 @@ import java.io.IOException;
 
 /**
  * @ClassName RedirectServlet
- * @Description TODO
+ * @Description 重定向
  * @Author Chris
  * @Date 2021/5/11
  **/
