@@ -22,4 +22,13 @@
     <servlet-name>ImageServlet</servlet-name>
     <url-pattern>/img</url-pattern>
   </servlet-mapping>
+
+  <servlet>
+    <servlet-name>RedirectServlet</servlet-name>
+    <servlet-class>com.sizhe.servlet.RedirectServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RedirectServlet</servlet-name>
+    <url-pattern>/red</url-pattern>
+  </servlet-mapping>
 </web-app>
