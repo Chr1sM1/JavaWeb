@@ -12,6 +12,7 @@
         <module>servlet01</module>
         <module>servlet-02</module>
         <module>response</module>
+        <module>request</module>
     </modules>
     <dependencies>
         <dependency>
