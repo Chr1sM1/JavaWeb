@@ -13,6 +13,7 @@
         <module>servlet-02</module>
         <module>response</module>
         <module>request</module>
+        <module>session-cookie</module>
     </modules>
     <dependencies>
         <dependency>

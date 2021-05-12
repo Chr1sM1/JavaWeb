@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="session-cookie:war">
+    <output-path>$PROJECT_DIR$/session-cookie/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>session-cookie</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="session-cookie.war">
+      <element id="artifact" artifact-name="session-cookie:war exploded" />
+    </root>
+  </artifact>
+</component>

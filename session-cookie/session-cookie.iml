@@ -13,7 +13,7 @@
     </facet>
   </component>
   <component name="WebModuleBuildComponent">
-    <setting name="EXPLODED_URL" value="file://$MODULE_DIR$/target/request" />
+    <setting name="EXPLODED_URL" value="file://$MODULE_DIR$/target/session-cookie" />
   </component>
   <component name="WebModuleProperties">
     <containerElement type="library" level="module">

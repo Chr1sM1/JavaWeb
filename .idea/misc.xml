@@ -6,6 +6,7 @@
     <file type="web" url="file://$PROJECT_DIR$/response" />
     <file type="web" url="file://$PROJECT_DIR$/servlet-02" />
     <file type="web" url="file://$PROJECT_DIR$/servlet01" />
+    <file type="web" url="file://$PROJECT_DIR$/session-cookie" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -14,7 +15,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8Adopt" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8Adopt" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

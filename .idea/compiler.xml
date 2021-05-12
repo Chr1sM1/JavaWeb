@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="servlet-02" />
         <module name="request" />
+        <module name="session-cookie" />
         <module name="servlet01" />
         <module name="response" />
       </profile>
