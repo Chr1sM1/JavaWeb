@@ -25,5 +25,14 @@
     <url-pattern>/c2</url-pattern>
   </servlet-mapping>
 
+  <servlet>
+    <servlet-name>CookieDemo03</servlet-name>
+    <servlet-class>com.sizhe.servlet.CookieDemo03</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CookieDemo03</servlet-name>
+    <url-pattern>/c3</url-pattern>
+  </servlet-mapping>
+
 
 </web-app>
