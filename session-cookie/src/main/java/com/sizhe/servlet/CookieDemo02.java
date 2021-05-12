@@ -1,0 +1,32 @@
+package com.sizhe.servlet;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+
+/**
+ * @ClassName CookieDemo02
+ * @Description 删除Cookie
+ * @Author Chris
+ * @Date 2021/5/13
+ **/
+public class CookieDemo02 extends HttpServlet {
+    @Override
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        //创建一个Cookie，名字必须和要删除的名字一致
+        Cookie cookie = new Cookie("lastLoginTime",System.currentTimeMillis()+"");
+
+        //将Cookie的有效期设置为0，立马过期
+        cookie.setMaxAge(0);
+
+        resp.addCookie(cookie);
+    }
+
+    @Override
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        doGet(req, resp);
+    }
+}
