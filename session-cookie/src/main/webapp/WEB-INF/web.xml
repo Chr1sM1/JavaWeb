@@ -34,5 +34,22 @@
     <url-pattern>/c3</url-pattern>
   </servlet-mapping>
 
+  <servlet>
+  <servlet-name>sessionDemo01</servlet-name>
+  <servlet-class>com.sizhe.servlet.SessionDemo01</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>sessionDemo01</servlet-name>
+    <url-pattern>/s1</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>sessionDemo02</servlet-name>
+    <servlet-class>com.sizhe.servlet.SessionDemo02</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>sessionDemo02</servlet-name>
+    <url-pattern>/s2</url-pattern>
+  </servlet-mapping>
 
 </web-app>

@@ -16,14 +16,14 @@
   </servlet-mapping>
 
   <!--404-->
-<!--  <servlet>-->
-<!--    <servlet-name>error</servlet-name>-->
-<!--    <servlet-class>com.sizhe.servlet.ErrorServlet</servlet-class>-->
-<!--  </servlet>-->
-<!--  <servlet-mapping>-->
-<!--    <servlet-name>error</servlet-name>-->
-<!--    <url-pattern>/*</url-pattern>-->
-<!--  </servlet-mapping>-->
+  <servlet>
+    <servlet-name>error</servlet-name>
+    <servlet-class>com.sizhe.servlet.ErrorServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>error</servlet-name>
+    <url-pattern>/*</url-pattern>
+  </servlet-mapping>
 
 <!--  &lt;!&ndash;默认求路径&ndash;&gt;-->
 <!--  <servlet-mapping>-->
@@ -33,8 +33,8 @@
 
   <!--可以自定义映射实现请求映射
   注意点，*前面不能加项目映射的路径-->
-  <servlet-mapping>
-    <servlet-name>hello</servlet-name>
-    <url-pattern>*.sizhe</url-pattern>
-  </servlet-mapping>
+<!--  <servlet-mapping>-->
+<!--    <servlet-name>hello</servlet-name>-->
+<!--    <url-pattern>*.sizhe</url-pattern>-->
+<!--  </servlet-mapping>-->
 </web-app>
