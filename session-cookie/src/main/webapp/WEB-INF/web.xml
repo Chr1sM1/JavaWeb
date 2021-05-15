@@ -52,4 +52,18 @@
     <url-pattern>/s2</url-pattern>
   </servlet-mapping>
 
+  <servlet>
+    <servlet-name>sessionDemo03</servlet-name>
+    <servlet-class>com.sizhe.servlet.SessionDemo03</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>sessionDemo03</servlet-name>
+    <url-pattern>/s3</url-pattern>
+  </servlet-mapping>
+
+<!--设置session的失效时间-->
+  <session-config>
+<!--1分钟后session自动失效，以分钟为单位-->
+    <session-timeout>1</session-timeout>
+  </session-config>
 </web-app>

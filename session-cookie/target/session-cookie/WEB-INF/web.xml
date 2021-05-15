@@ -52,4 +52,13 @@
     <url-pattern>/s2</url-pattern>
   </servlet-mapping>
 
+  <servlet>
+    <servlet-name>sessionDemo03</servlet-name>
+    <servlet-class>com.sizhe.servlet.SessionDemo03</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>sessionDemo03</servlet-name>
+    <url-pattern>/s3</url-pattern>
+  </servlet-mapping>
+
 </web-app>
