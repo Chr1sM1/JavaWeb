@@ -14,21 +14,37 @@
         <module>response</module>
         <module>request</module>
         <module>session-cookie</module>
+        <module>jsp</module>
     </modules>
     <dependencies>
+        <!-- servlet的依赖 -->
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
             <version>4.0.1</version>
             <scope>provided</scope>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/javax.servlet.jsp/javax.servlet.jsp-api -->
+        <!-- jsp的依赖 -->
         <dependency>
             <groupId>javax.servlet.jsp</groupId>
             <artifactId>javax.servlet.jsp-api</artifactId>
             <version>2.3.3</version>
             <scope>provided</scope>
         </dependency>
+        <!-- jstl表达式的依赖 -->
+        <dependency>
+            <groupId>javax.servlet.jsp.jstl</groupId>
+            <artifactId>jstl-api</artifactId>
+            <version>1.2</version>
+        </dependency>
+        <!-- standard标签库 -->
+        <dependency>
+            <groupId>taglibs</groupId>
+            <artifactId>standard</artifactId>
+            <version>1.1.2</version>
+        </dependency>
+
+
     </dependencies>
 
 

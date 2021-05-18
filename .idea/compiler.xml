@@ -11,6 +11,7 @@
         <module name="session-cookie" />
         <module name="servlet01" />
         <module name="response" />
+        <module name="jsp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
